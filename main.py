@@ -10,7 +10,7 @@ app = customtkinter.CTk()  #creating cutstom tkinter window
 app.geometry("600x440")
 app.title('Login')
 
-
+print("Hello")
 
 def button_function():
     app.destroy()            # destroy current window and creating new one 

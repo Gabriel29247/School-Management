@@ -18,7 +18,7 @@ def create_loading_screen():
         conn = sql.connect(
             host="sql12.freemysqlhosting.net",
             user="sql12657119",
-            password="XbSZxMStNu",
+            password="",
             database="sql12657119")
         print(conn.is_connected())
         loading_screen.destroy()
